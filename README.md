@@ -224,3 +224,80 @@ print("Your grade is:", grade)
 ✅ 3. Check if a person is eligible to vote.  
 ✅ 4. Check if a year is a leap year.  
 ✅ 5. Verify if three sides form a valid triangle.  
+
+
+**Comparison operators** are used to compare two values. They return a **Boolean result**: `true/false` (or `True/False`, depending on the language).
+
+Below is a clear, beginner-friendly overview.
+
+---
+
+## Common Comparison Operators
+
+| Operator | Meaning                  | Example  | Result  |
+| -------- | ------------------------ | -------- | ------- |
+| `==`     | Equal to                 | `5 == 5` | `true`  |
+| `!=`     | Not equal to             | `5 != 3` | `true`  |
+| `>`      | Greater than             | `7 > 4`  | `true`  |
+| `<`      | Less than                | `2 < 6`  | `true`  |
+| `>=`     | Greater than or equal to | `5 >= 5` | `true`  |
+| `<=`     | Less than or equal to    | `3 <= 1` | `false` |
+
+---
+
+## Example in Python
+
+```python
+a = 10
+b = 5
+
+print(a == b)   # False
+print(a != b)   # True
+print(a > b)    # True
+print(a <= b)   # False
+```
+
+---
+
+## Example in JavaScript
+
+```javascript
+let x = 8;
+let y = 8;
+
+console.log(x == y);   // true
+console.log(x !== y);  // false
+console.log(x >= y);   // true
+```
+
+⚠️ **JavaScript tip:**
+
+* `==` checks value only
+* `===` checks **value and type**
+
+```javascript
+5 == "5"    // true
+5 === "5"   // false
+```
+
+---
+
+## Where Comparison Operators Are Used
+
+* `if` statements
+* `while` and `for` loops
+* Validations (checking age, scores, passwords, etc.)
+
+Example:
+
+```python
+if score >= 50:
+    print("Pass")
+else:
+    print("Fail")
+```
+
+---
+
+If you want, tell me **which language** you’re studying (Python, Java, C++, etc.), and I’ll tailor the examples for that 👍
+
