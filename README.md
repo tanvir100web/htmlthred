@@ -1,5 +1,4 @@
 # 🐍 PYTHON CLASS 4 — CONDITIONALS 
-
 Welcome back to your Python journey!  
 In these two classes, you’ll learn **decision-making (if-else)** and **looping (for, while)** — the heart of logical programming.
 
