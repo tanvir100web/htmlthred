@@ -261,7 +261,7 @@ print(a <= b)   # False
 
 ## Example in JavaScript
 
-```javascript
+```html
 let x = 8;
 let y = 8;
 
